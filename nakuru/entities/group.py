@@ -27,13 +27,13 @@ class Anonymous(BaseModel):
     flag: str
 
 class Group(BaseModel):
-    group_id: int
-    group_name: str
-    group_memo: str
     group_create_time: int
+    group_id: int
     group_level: int
+    group_name: str
+    group_memo: Optional[str]
     member_count: int
-    max_member_count: int
+    max_member_count: Optional[int]
 
 class HonorListNode(BaseModel):
     user_id: int
