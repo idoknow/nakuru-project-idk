@@ -3,6 +3,8 @@
 
 # Nakuru Project
 
+[![PyPi](https://img.shields.io/pypi/v/nakuru-project-idk.svg)](https://pypi.python.org/pypi/nakuru-project-idk)
+
 > 这是由idoknow维护的分支
 
 一款为 [go-cqhttp](https://github.com/Mrs4s/go-cqhttp) 的正向 WebSocket 设计的 Python SDK，支持纯 CQ 码与消息链的转换处理
